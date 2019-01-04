@@ -1,18 +1,4 @@
-//normal function statement
+var counter = require("./count");
 
-function callFunction(fun){
-    fun();
-}
-// function sayHi(){
-//     console.log("hi");
-// }
 
-// sayHi();
-
-//function expression
-var sayBye = function(){
-    console.log("bye");
-};
-
-sayBye();
-
+console.log(counter(["shawn", "crystal", "ryan"]));
