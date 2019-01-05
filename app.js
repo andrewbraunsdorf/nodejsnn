@@ -1,8 +1,19 @@
 var fs = require("fs");
 
-fs.readFile("readme.txt", "utf8", function(err, data){
-    fs.writeFile(writeMe.txt, data)
+//Asyncronyus 
+fs.unlink("./stuff/writeMe.txt", function(){
+	fs.rmdir("stuff");	
 });
 
+//cannot remove dir without it being empty
 
-//code
+
+// fs.mkdir("stuff", function(){
+// 	fs.readFile("readMe.txt", "utf8", function(err, data){
+// 		fs.writeFile("./stuff/writeMe.txt", data);
+// 	});
+// });
+
+//Syncronyus Version
+// fs.mkdirSync("stuff");
+// fs.rmdirSync("stuff");
