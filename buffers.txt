@@ -1,0 +1,14 @@
+Buffers
+Temporary storage spot for a chunk of data that is being transferred from one place to another
+The buffer is filled with data, then passed along
+Transfer small chunks of data at a time
+
+All data in one big pile...then instead of waiting it to be stored in memory, stored in a temporary buffer. Data is then passed on and able to be processed
+Stream: we have a data source, with a small chunk of data to be processed 
+Just wait for chunks of data to be processed.
+Like waiting for a video to load.  We do not have to wait for the entire data to be loaded
+
+Streams in Node.js
+Can create streams in Node.js to transfer data
+Increase performance
+Also true when dealing with requests and waiting for the data to be consumed
