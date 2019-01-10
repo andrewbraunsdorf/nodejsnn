@@ -1,0 +1,20 @@
+Clients and Servers
+Ask for data from website
+Request from the client to the server
+Response from the server to the client
+
+Protocol- A set of communication rules, that two sides agree to use when communicating.
+Each computer or server can be identified by its own unique IP address.
+If the client wants to make a request to the server it first needs to connect to the IP address which will open a socket that allows info to be sent.  Info to be sent is structured in different protocols, ex http or ftp, protocols are what they relate to.
+File Transfer Protocol
+Structure has been decided on, is sent down a socket and packet is 
+Sent from server to the client is via a protocol called TCP.
+TCP splits information into smaller packets and transfer them around the socket.
+Nodejs allows us to access this information.
+TCP (Transmission Control Protocol) is a networking protocol that provides reliable, ordered and error-checked delivery of a stream of data between applications. A TCP 
+server can accept a TCP connection request, and once the connection is established both sides can exchange data streams.
+
+Ports: a program running on a computer can listen for requests sent to a particular port number
+How do we know node.js should deal with the request and not the email address.
+All have a port #, so only if it listening on the port number it will listen for this request.
+Node.js might be listening to a particular port.
