@@ -15,7 +15,7 @@ app.get("/404", function(req, res){
 	res.sendFile(__dirname + "/404.html");
 });
 app.get("/profile/:name", function(req, res){
-	var data = {age: 29, job: "ninja"};
+	var data = {age: 29, job: "ninja", hobbies: ["eating", "fighting", "fishing"]};
 	res.render("profile", {person: req.params.name, data: data});
 });
 
