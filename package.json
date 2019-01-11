@@ -1,0 +1,26 @@
+{
+  "name": "nodejsnn",
+  "version": "1.0.0",
+  "description": "a little test app",
+  "main": "#1 code of the play list.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewbraunsdorf/nodejsnn.git"
+  },
+  "keywords": [
+    "fun",
+    "ninjas"
+  ],
+  "author": "Braunsdorf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewbraunsdorf/nodejsnn/issues"
+  },
+  "homepage": "https://github.com/andrewbraunsdorf/nodejsnn#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
