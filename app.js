@@ -2,6 +2,8 @@ var express = require("express");
 var app = express();
 
 app.set("view engine", "ejs");
+app.use("/assets", express.static("stuff"));
+
 
 app.get("/", function(req, res){
 	res.render("index");	
@@ -17,3 +19,9 @@ app.get("/profile/:name", function(req, res){
 });
 
 app.listen(8080);
+
+
+// app.use("/assets", function(req, res, next){
+// 	console.log(req.url);
+// 	next();
+// });
