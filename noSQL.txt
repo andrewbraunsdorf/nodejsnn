@@ -1,0 +1,14 @@
+NoSQL Databases
+-Alternative to SQL databases
+-Store documents (JSON) in a db, instead of tables with rows and columns
+-Works really well with JavaScript (and therefore Node.js)
+
+Storing JSON
+[
+	{
+		Item: “walk the dog”
+	},
+	{
+		Item: “eat some pie”
+	}
+]
