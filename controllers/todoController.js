@@ -2,7 +2,7 @@ var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
 
 //Connect to mLab database
-//added , { useNewUrlParser: true } to eliminate node: 5128 error
+//added , { useNewUrlParser: true } to eliminate node: 5128 error 
 mongoose.connect("mongodb://testapp1:testapp1@ds155774.mlab.com:55774/todoapp", { useNewUrlParser: true });
 
 //Create a schema - this is like a blueprint for our data
